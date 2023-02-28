@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Abhishek_GYM</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/abs-g10bfbb8fe_1920.jpg');
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 12px;
+
+        }
+
+        .mid {
+            /* its the condition to shift any block into the centor of the webpages */
+            /* border: 2px solid green; */
+            color: aliceblue;
+            display: block;
+            width: 33%;
+            margin: 12px auto;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 12px;
+            font-family: cursive;
+            line-height: 24px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .left img {
+            width: 102px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: aliceblue;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            border: 2px solid grey;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 117px 10px;
+            padding: 22px 80px;
+            width: 35%;
+            color: aliceblue;
+            border-radius: 15px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            margin: 11px auto;
+            font-size: 25px;
+            border: 2px solid black;
+            border-radius: 12px;
+        }
+
+        .container button {
+            display: block;
+            width: 512px;
+            margin: 16px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- its for the logo of the website -->
+            <img src="img/download123-modified.png" alt="error">
+            <div>Kaushik Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- its for the navbar of the website -->
+            <ul class="navbar">
+                <li><a href="#">home</a> </li>
+                <li><a href="#">about</a> </li>
+                <li><a href="#">price</a> </li>
+                <li><a href="#">gallery</a> </li>
+                <li><a href="#">contact</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- its for the buttons of the website -->
+            <button class="btn">call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of the delhi</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
